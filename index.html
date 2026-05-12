@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayla Ezeji | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo"></div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header>
+    <div class="hero-content">
+      <div class="profile-box">
+        <img src="kaylaa.jpg" alt="Kayla Ezeji">
+      </div>
+      <div class="hero-text">
+        <h1>Kayla Ezeji</h1>
+        <h2>Data Scientist | AI Video Creator | Bilingual Spanish Interpreter</h2>
+        <p>Passionate and creative professional with experience in Data Science, bilingual Spanish interpretation, and AI-powered video content creation. Skilled in using modern AI tools to create engaging digital content, analyze data, and communicate effectively across languages.</p>
+        <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Get In Touch</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Passionate and creative professional with experience in Data Science, bilingual Spanish interpretation, and AI-powered video content creation. Skilled in using modern AI tools to create engaging digital content, analyze data, and communicate effectively across languages.</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="glow-card">
+        <h3>Data Science</h3>
+        <ul>
+          <li>Python • SQL • Excel</li>
+          <li>Machine Learning</li>
+          <li>Power BI • Data Visualization</li>
+          <li>Data Analysis</li>
+        </ul>
+      </div>
+      <div class="glow-card">
+        <h3>Spanish Interpretation</h3>
+        <ul>
+          <li>English ↔ Spanish Interpretation</li>
+          <li>Live Translation</li>
+          <li>Cross-cultural Communication</li>
+        </ul>
+      </div>
+      <div class="glow-card">
+        <h3>AI Video Content</h3>
+        <ul>
+          <li>CapCut • Runway • Pika</li>
+          <li>Prompt Engineering</li>
+          <li>OpenAI Tools</li>
+          <li>Short-form Video Editing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <div class="glow-card">
+        <h3>AI Product Advertisement Videos</h3>
+        <p class="role">Role: AI Video Creator</p>
+        <p>Created engaging AI-generated promotional videos for social media marketing campaigns.</p>
+        <p class="tools">Tools: CapCut, Runway ML, Pika, ChatGPT</p>
+      </div>
+      <div class="glow-card">
+        <h3>Student Performance Analysis</h3>
+        <p class="role">Role: Data Analyst</p>
+        <p>Analyzed student academic performance data to identify trends and improve performance tracking.</p>
+        <p class="tools">Tools: Python, Excel, Power BI</p>
+      </div>
+      <div class="glow-card">
+        <h3>Spanish-English Interpretation Sessions</h3>
+        <p class="role">Role: Bilingual Interpreter</p>
+        <p>Provided bilingual interpretation support for conversations and customer communication.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDENTIALS -->
+  <section id="credentials">
+    <h2>Credentials</h2>
+    <div class="grid">
+      <div class="glow-card">Data Science Certification — Aptech Computer Education</div>
+      <div class="glow-card">Bilingual Communication Certification</div>
+      <div class="glow-card">AI Video Editing Training</div>
+      <div class="glow-card">Python for Data Analysis</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <form id="contactForm">
+      <div class="form-grid">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+      <input type="text" placeholder="Subject" required>
+      <textarea placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 Kayla Ezeji. All Rights Reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
